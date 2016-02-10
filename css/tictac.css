@@ -1,0 +1,133 @@
+body {
+	/*position: absolute;*/
+	font-size: 14px;
+	font-family: Helvetica;
+}
+html {
+		background: radial-gradient(ellipse at center, #37d0ff 0%,#001a45 100%) fixed; 
+
+}
+
+.background {
+	/*-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);*/
+	display: none;
+	position: absolute; 
+	margin-top: -20px; 
+	margin-left: -20px; 
+	
+  /* Preserve aspect ratio */
+    height: 110%;
+    width: 110%; /* ie8 */
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #BDBDBD;
+}
+
+
+
+.content{
+	/*display: none;*/
+	position: fixed;
+	font-family: "Arial";
+	color: white;
+
+	line-height: 200px;
+    margin-top: -100px;
+	top: 50%;
+	width: 100%;
+	font-size: 180px;
+	text-align: center;
+}
+
+.one{
+	position: fixed;
+	background: rgba(255, 255, 255, .95);
+	border-style: solid;
+	border-color: #B40404;
+    border-width: 3px;
+
+
+	top:150px;
+	left:200px;
+    width: 400px;
+    z-index: 1;
+}
+
+
+.two{
+	position: fixed;
+	background: rgba(255, 255, 255, .95);
+	border-style: solid;
+    border-width: 2px;
+
+	top: 125px;
+	left:250px;
+    width: 400px;
+    z-index: 0;
+
+   /* -webkit-filter: blur(.75px);
+	filter: blur(.75px);*/
+
+}
+
+
+.three{
+	position: fixed;
+	background: rgba(255, 255, 255, .45);
+	top: 100px;
+	left:250px;
+    width: 400px;
+    z-index: 2;
+
+    -webkit-filter: blur(2px);
+	filter: blur(2px);
+
+}
+
+
+.four{
+	position: fixed;
+	background: rgba(255, 255, 255, .45);
+	top:75px;
+	left:275px;
+    width: 400px;
+    z-index: 1;
+
+   	-webkit-filter: blur(3px);
+	filter: blur(3px);
+
+}
+
+
+
+
+
